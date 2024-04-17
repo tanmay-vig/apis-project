@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOKES</title>
+</head>
+<body>
+    <h1>
+        WELCOME TO JOKES PAGE    
+    </h1>
+    <div>
+        <%= locals.joke %>
+    </div>
+    <form action="/jokess" method="post" >
+        <button type="submit"> Give Joke </button>
+    </form>
+</body>
+</html>
